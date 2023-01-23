@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8000/api/games/";
+const BASE_URL = "https://games-api-7imj.onrender.com/api/games/";
 
 export const getData = async() => {
   const response = await fetch(BASE_URL);
